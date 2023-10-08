@@ -1,0 +1,35 @@
+{
+    "dataset_reader": {
+        "type": "classification-tsv",
+        "token_indexers": {
+            "tokens": {
+                "type": "single_id"
+            }
+        }
+    },
+    "model": {
+        "type": "simple_classifier",
+        "embedder": {
+            "token_embedders": {
+                "tokens": {
+                    "type": "embedding",
+                    "embedding_dim": 10
+                }
+            }
+        },
+        "encoder": {
+            "type": "bag_of_embeddings",
+            "embedding_dim": 10
+        }
+    },
+    "train_data_path": "data/title/train_5.tsv",
+    "validation_data_path": "data/title/dev_5.tsv",
+    "trainer": {
+        "num_epochs": 20,
+        "optimizer": "adam"
+    },
+    "data_loader": {
+        "batch_size": 8,
+        "shuffle": true
+    }
+}

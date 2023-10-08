@@ -1,0 +1,511 @@
+2023-08-06 20:01:51,032 - INFO - allennlp.common.params - random_seed = 13370
+2023-08-06 20:01:51,032 - INFO - allennlp.common.params - numpy_seed = 1337
+2023-08-06 20:01:51,032 - INFO - allennlp.common.params - pytorch_seed = 133
+2023-08-06 20:01:51,033 - INFO - allennlp.common.checks - Pytorch version: 1.11.0+cu102
+2023-08-06 20:01:51,033 - INFO - allennlp.common.params - type = default
+2023-08-06 20:01:51,033 - INFO - allennlp.common.params - dataset_reader.type = classification-tsv
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.max_instances = None
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.manual_distributed_sharding = False
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.manual_multiprocess_sharding = False
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.tokenizer = None
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.type = single_id
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.namespace = tokens
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.lowercase_tokens = False
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.start_tokens = None
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.end_tokens = None
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.feature_name = text
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.default_value = THIS IS A REALLY UNLIKELY VALUE THAT HAS TO BE A STRING
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.token_indexers.tokens.token_min_padding_length = 0
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - dataset_reader.max_tokens = None
+2023-08-06 20:01:51,034 - INFO - allennlp.common.params - train_data_path = data/desp/train_3.tsv
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - vocabulary = <allennlp.common.lazy.Lazy object at 0x7faeba323dd0>
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - validation_dataset_reader = None
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - validation_data_path = data/desp/dev_3.tsv
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - validation_data_loader = None
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - test_data_path = None
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - evaluate_on_test = False
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - batch_weight_key = 
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - data_loader.batch_size = 8
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - data_loader.drop_last = False
+2023-08-06 20:01:51,035 - INFO - allennlp.common.params - data_loader.shuffle = True
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.batch_sampler = None
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.start_method = fork
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.quiet = False
+2023-08-06 20:01:51,036 - INFO - allennlp.common.params - data_loader.collate_fn = <allennlp.data.data_loaders.data_collator.DefaultDataCollator object at 0x7faed51cee10>
+2023-08-06 20:01:51,036 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2023-08-06 20:01:51,458 - INFO - allennlp.common.params - data_loader.type = multiprocess
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.batch_size = 8
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.drop_last = False
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.shuffle = True
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.batch_sampler = None
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.max_instances_in_memory = None
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.start_method = fork
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.cuda_device = None
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.quiet = False
+2023-08-06 20:01:51,459 - INFO - allennlp.common.params - data_loader.collate_fn = <allennlp.data.data_loaders.data_collator.DefaultDataCollator object at 0x7faed51cee10>
+2023-08-06 20:01:51,459 - INFO - tqdm - loading instances: 0it [00:00, ?it/s]
+2023-08-06 20:01:51,615 - INFO - allennlp.common.params - type = from_instances
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - min_count = None
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - max_vocab_size = None
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - non_padded_namespaces = ('*tags', '*labels')
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - pretrained_files = None
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - only_include_pretrained_words = False
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - tokens_to_add = None
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - min_pretrained_embeddings = None
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - padding_token = @@PADDING@@
+2023-08-06 20:01:51,616 - INFO - allennlp.common.params - oov_token = @@UNKNOWN@@
+2023-08-06 20:01:51,616 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2023-08-06 20:01:51,616 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2023-08-06 20:01:51,793 - INFO - allennlp.common.params - model.type = simple_classifier
+2023-08-06 20:01:51,793 - INFO - allennlp.common.params - model.embedder.type = basic
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.type = embedding
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.embedding_dim = 10
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.num_embeddings = None
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.projection_dim = None
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.weight = None
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.padding_index = None
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.trainable = True
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.max_norm = None
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.norm_type = 2.0
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.scale_grad_by_freq = False
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.sparse = False
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.vocab_namespace = tokens
+2023-08-06 20:01:51,794 - INFO - allennlp.common.params - model.embedder.token_embedders.tokens.pretrained_file = None
+2023-08-06 20:01:51,796 - INFO - allennlp.common.params - model.encoder.type = bag_of_embeddings
+2023-08-06 20:01:51,796 - INFO - allennlp.common.params - model.encoder.embedding_dim = 10
+2023-08-06 20:01:51,796 - INFO - allennlp.common.params - model.encoder.averaged = False
+2023-08-06 20:01:51,999 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2023-08-06 20:01:51,999 - INFO - allennlp.common.params - trainer.cuda_device = None
+2023-08-06 20:01:51,999 - INFO - allennlp.common.params - trainer.distributed = False
+2023-08-06 20:01:51,999 - INFO - allennlp.common.params - trainer.world_size = 1
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.patience = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.validation_metric = -loss
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.num_epochs = 20
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.grad_norm = False
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 1
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.use_amp = False
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.no_grad = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.optimizer = adam
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.moving_average = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.checkpointer = <allennlp.common.lazy.Lazy object at 0x7faeba362610>
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.callbacks = None
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.enable_default_callbacks = True
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.run_confidence_checks = True
+2023-08-06 20:01:52,000 - INFO - allennlp.common.params - trainer.grad_scaling = True
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - type = adam
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - parameter_groups = None
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - lr = 0.001
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - betas = (0.9, 0.999)
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - eps = 1e-08
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - weight_decay = 0.0
+2023-08-06 20:01:52,001 - INFO - allennlp.common.params - amsgrad = False
+2023-08-06 20:01:52,001 - INFO - allennlp.training.optimizers - Number of trainable parameters: 280702
+2023-08-06 20:01:52,001 - INFO - allennlp.common.util - The following parameters are Frozen (without gradient):
+2023-08-06 20:01:52,001 - INFO - allennlp.common.util - The following parameters are Tunable (with gradient):
+2023-08-06 20:01:52,001 - INFO - allennlp.common.util - embedder.token_embedder_tokens.weight
+2023-08-06 20:01:52,001 - INFO - allennlp.common.util - classifier.weight
+2023-08-06 20:01:52,001 - INFO - allennlp.common.util - classifier.bias
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - type = default
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - save_completed_epochs = True
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - save_every_num_seconds = None
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - save_every_num_batches = None
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - keep_most_recent_by_count = 2
+2023-08-06 20:01:52,002 - INFO - allennlp.common.params - keep_most_recent_by_age = None
+2023-08-06 20:01:52,002 - WARNING - allennlp.training.gradient_descent_trainer - You provided a validation dataset but patience was set to None, meaning that early stopping is disabled
+2023-08-06 20:01:52,002 - INFO - allennlp.training.gradient_descent_trainer - Beginning training.
+2023-08-06 20:01:52,002 - INFO - allennlp.training.gradient_descent_trainer - Epoch 0/19
+2023-08-06 20:01:52,002 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 477M
+2023-08-06 20:01:52,002 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:52,003 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:52,017 - INFO - allennlp.training.callbacks.console_logger - Batch inputs
+2023-08-06 20:01:52,017 - INFO - allennlp.training.callbacks.console_logger - batch_input/text/tokens/tokens (Shape: 8 x 691)
+tensor([[ 8543, 14616,  1581,  ...,     0,     0,     0],
+        [ 7611,   539,   499,  ...,     0,     0,     0],
+        [  245, 11627, 11628,  ...,     0,     0,     0],
+        ...,
+        [ 3678, 10487,  5925,  ...,     6,  1441,  1477],
+        [ 5074,   569,   367,  ...,     0,     0,     0],
+        [  403,    33,   153,  ...,     0,     0,     0]])
+2023-08-06 20:01:52,018 - INFO - allennlp.training.callbacks.console_logger - batch_input/label (Shape: 8)
+tensor([0, 1, 1,  ..., 1, 0, 0])
+2023-08-06 20:01:52,345 - INFO - tqdm - accuracy: 0.8625, precision: 0.8226, recall: 0.9198, f1: 0.8685, batch_loss: 0.1012, loss: 0.3574 ||: 100%|##########| 120/120 [00:00<00:00, 350.28it/s]
+2023-08-06 20:01:52,346 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:52,346 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:52,347 - INFO - allennlp.training.callbacks.console_logger - Batch inputs
+2023-08-06 20:01:52,347 - INFO - allennlp.training.callbacks.console_logger - batch_input/text/tokens/tokens (Shape: 8 x 599)
+tensor([[ 2403,    17, 11186,  ...,     0,     0,     0],
+        [ 3092,    64, 13178,  ...,     0,     0,     0],
+        [  240,     4,     5,  ...,     0,     0,     0],
+        ...,
+        [ 8201,  2899,     5,  ...,     0,     0,     0],
+        [  403,    33,   163,  ...,    46,   143,  1196],
+        [26074,    19, 26075,  ...,     0,     0,     0]])
+2023-08-06 20:01:52,348 - INFO - allennlp.training.callbacks.console_logger - batch_input/label (Shape: 8)
+tensor([1, 1, 1,  ..., 0, 1, 0])
+2023-08-06 20:01:52,378 - INFO - tqdm - accuracy: 0.9500, precision: 0.9318, recall: 0.9762, f1: 0.9535, batch_loss: 0.2600, loss: 0.2080 ||: 100%|##########| 30/30 [00:00<00:00, 926.06it/s]
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.863  |     0.950
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.869  |     0.953
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.357  |     0.208
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.823  |     0.932
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.920  |     0.976
+2023-08-06 20:01:52,379 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   476.910  |       N/A
+2023-08-06 20:01:52,383 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.380383
+2023-08-06 20:01:52,383 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:07
+2023-08-06 20:01:52,383 - INFO - allennlp.training.gradient_descent_trainer - Epoch 1/19
+2023-08-06 20:01:52,383 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:52,383 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:52,383 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:52,717 - INFO - tqdm - accuracy: 0.9521, precision: 0.9440, recall: 0.9599, f1: 0.9519, batch_loss: 0.0469, loss: 0.1965 ||: 100%|##########| 120/120 [00:00<00:00, 360.03it/s]
+2023-08-06 20:01:52,717 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:52,717 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:52,783 - INFO - tqdm - accuracy: 0.9542, precision: 0.9528, recall: 0.9603, f1: 0.9565, batch_loss: 0.2148, loss: 0.1833 ||: 100%|##########| 30/30 [00:00<00:00, 456.59it/s]
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.952  |     0.954
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.952  |     0.957
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.196  |     0.183
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.944  |     0.953
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.960  |     0.960
+2023-08-06 20:01:52,784 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:52,788 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.405142
+2023-08-06 20:01:52,788 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:07
+2023-08-06 20:01:52,788 - INFO - allennlp.training.gradient_descent_trainer - Epoch 2/19
+2023-08-06 20:01:52,788 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:52,788 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:52,789 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:53,134 - INFO - tqdm - accuracy: 0.9656, precision: 0.9565, recall: 0.9747, f1: 0.9655, batch_loss: 0.1686, loss: 0.1544 ||: 100%|##########| 120/120 [00:00<00:00, 348.02it/s]
+2023-08-06 20:01:53,134 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:53,134 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:53,166 - INFO - tqdm - accuracy: 0.9375, precision: 0.9587, recall: 0.9206, f1: 0.9393, batch_loss: 0.0724, loss: 0.1743 ||: 100%|##########| 30/30 [00:00<00:00, 945.54it/s]
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.966  |     0.938
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.966  |     0.939
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.154  |     0.174
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.957  |     0.959
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.975  |     0.921
+2023-08-06 20:01:53,167 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:53,171 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.382744
+2023-08-06 20:01:53,171 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:06
+2023-08-06 20:01:53,171 - INFO - allennlp.training.gradient_descent_trainer - Epoch 3/19
+2023-08-06 20:01:53,171 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:53,171 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:53,172 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:53,469 - INFO - tqdm - accuracy: 0.9615, precision: 0.9524, recall: 0.9705, f1: 0.9613, batch_loss: 0.7311, loss: 0.1537 ||: 100%|##########| 120/120 [00:00<00:00, 403.46it/s]
+2023-08-06 20:01:53,470 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:53,470 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:53,510 - INFO - tqdm - accuracy: 0.9000, precision: 0.9474, recall: 0.8571, f1: 0.9000, batch_loss: 0.5071, loss: 0.3536 ||: 100%|##########| 30/30 [00:00<00:00, 747.54it/s]
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.961  |     0.900
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.961  |     0.900
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.154  |     0.354
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.952  |     0.947
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.970  |     0.857
+2023-08-06 20:01:53,511 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:53,515 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.343720
+2023-08-06 20:01:53,515 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:06
+2023-08-06 20:01:53,515 - INFO - allennlp.training.gradient_descent_trainer - Epoch 4/19
+2023-08-06 20:01:53,515 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:53,515 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:53,516 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:53,850 - INFO - tqdm - accuracy: 0.9646, precision: 0.9527, recall: 0.9768, f1: 0.9646, batch_loss: 0.0902, loss: 0.1400 ||: 100%|##########| 120/120 [00:00<00:00, 358.68it/s]
+2023-08-06 20:01:53,854 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:53,854 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:53,895 - INFO - tqdm - accuracy: 0.9500, precision: 0.9453, recall: 0.9603, f1: 0.9528, batch_loss: 0.0901, loss: 0.1610 ||: 100%|##########| 30/30 [00:00<00:00, 746.72it/s]
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.965  |     0.950
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.965  |     0.953
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.140  |     0.161
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.953  |     0.945
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.977  |     0.960
+2023-08-06 20:01:53,895 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:53,900 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.384250
+2023-08-06 20:01:53,900 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:05
+2023-08-06 20:01:53,900 - INFO - allennlp.training.gradient_descent_trainer - Epoch 5/19
+2023-08-06 20:01:53,900 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:53,900 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:53,900 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:54,209 - INFO - tqdm - accuracy: 0.9625, precision: 0.9544, recall: 0.9705, f1: 0.9623, batch_loss: 0.0013, loss: 0.1222 ||: 100%|##########| 120/120 [00:00<00:00, 388.09it/s]
+2023-08-06 20:01:54,209 - INFO - tqdm - accuracy: 0.9625, precision: 0.9544, recall: 0.9705, f1: 0.9623, batch_loss: 0.0013, loss: 0.1222 ||: 100%|##########| 120/120 [00:00<00:00, 388.80it/s]
+2023-08-06 20:01:54,209 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:54,209 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:54,243 - INFO - tqdm - accuracy: 0.9708, precision: 0.9474, recall: 1.0000, f1: 0.9730, batch_loss: 0.7702, loss: 0.1410 ||: 100%|##########| 30/30 [00:00<00:00, 894.96it/s]
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.963  |     0.971
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.962  |     0.973
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.122  |     0.141
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.954  |     0.947
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.970  |     1.000
+2023-08-06 20:01:54,244 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:54,248 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.348262
+2023-08-06 20:01:54,248 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:05
+2023-08-06 20:01:54,248 - INFO - allennlp.training.gradient_descent_trainer - Epoch 6/19
+2023-08-06 20:01:54,248 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:54,248 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:54,249 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:54,588 - INFO - tqdm - accuracy: 0.9625, precision: 0.9488, recall: 0.9768, f1: 0.9626, batch_loss: 0.0079, loss: 0.1239 ||: 100%|##########| 120/120 [00:00<00:00, 354.00it/s]
+2023-08-06 20:01:54,588 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:54,588 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:54,623 - INFO - tqdm - accuracy: 0.9500, precision: 0.9453, recall: 0.9603, f1: 0.9528, batch_loss: 0.0880, loss: 0.1616 ||: 100%|##########| 30/30 [00:00<00:00, 876.23it/s]
+2023-08-06 20:01:54,623 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:54,623 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.963  |     0.950
+2023-08-06 20:01:54,623 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.963  |     0.953
+2023-08-06 20:01:54,623 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.124  |     0.162
+2023-08-06 20:01:54,623 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.949  |     0.945
+2023-08-06 20:01:54,624 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.977  |     0.960
+2023-08-06 20:01:54,624 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:54,628 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.379369
+2023-08-06 20:01:54,628 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:04
+2023-08-06 20:01:54,628 - INFO - allennlp.training.gradient_descent_trainer - Epoch 7/19
+2023-08-06 20:01:54,628 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:54,628 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:54,628 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:54,950 - INFO - tqdm - accuracy: 0.9635, precision: 0.9507, recall: 0.9768, f1: 0.9636, batch_loss: 0.0867, loss: 0.1112 ||: 100%|##########| 120/120 [00:00<00:00, 373.48it/s]
+2023-08-06 20:01:54,950 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:54,950 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:54,983 - INFO - tqdm - accuracy: 0.9167, precision: 0.9569, recall: 0.8810, f1: 0.9174, batch_loss: 0.0406, loss: 0.1682 ||: 100%|##########| 30/30 [00:00<00:00, 916.42it/s]
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.964  |     0.917
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.964  |     0.917
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.111  |     0.168
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.951  |     0.957
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.977  |     0.881
+2023-08-06 20:01:54,984 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:54,988 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.360291
+2023-08-06 20:01:54,988 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:04
+2023-08-06 20:01:54,988 - INFO - allennlp.training.gradient_descent_trainer - Epoch 8/19
+2023-08-06 20:01:54,989 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:54,989 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:54,989 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:55,729 - INFO - tqdm - accuracy: 0.9625, precision: 0.9525, recall: 0.9726, f1: 0.9624, batch_loss: 0.0289, loss: 0.1191 ||: 100%|##########| 120/120 [00:00<00:00, 162.21it/s]
+2023-08-06 20:01:55,729 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:55,729 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:55,773 - INFO - tqdm - accuracy: 0.9542, precision: 0.9457, recall: 0.9683, f1: 0.9569, batch_loss: 0.1629, loss: 0.1464 ||: 100%|##########| 30/30 [00:00<00:00, 685.61it/s]
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.963  |     0.954
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.962  |     0.957
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.119  |     0.146
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.952  |     0.946
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.973  |     0.968
+2023-08-06 20:01:55,774 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:55,779 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.790290
+2023-08-06 20:01:55,779 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:04
+2023-08-06 20:01:55,779 - INFO - allennlp.training.gradient_descent_trainer - Epoch 9/19
+2023-08-06 20:01:55,779 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:55,779 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:55,779 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:56,151 - INFO - tqdm - accuracy: 0.9625, precision: 0.9525, recall: 0.9726, f1: 0.9624, batch_loss: 0.1724, loss: 0.1107 ||: 100%|##########| 120/120 [00:00<00:00, 322.88it/s]
+2023-08-06 20:01:56,152 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:56,152 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:56,197 - INFO - tqdm - accuracy: 0.9667, precision: 0.9609, recall: 0.9762, f1: 0.9685, batch_loss: 0.0470, loss: 0.1348 ||: 100%|##########| 30/30 [00:00<00:00, 663.81it/s]
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.963  |     0.967
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.962  |     0.969
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.111  |     0.135
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.952  |     0.961
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.973  |     0.976
+2023-08-06 20:01:56,198 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:56,202 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.423206
+2023-08-06 20:01:56,202 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:04
+2023-08-06 20:01:56,202 - INFO - allennlp.training.gradient_descent_trainer - Epoch 10/19
+2023-08-06 20:01:56,203 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:56,203 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:56,203 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:56,533 - INFO - tqdm - accuracy: 0.9583, precision: 0.9521, recall: 0.9641, f1: 0.9581, batch_loss: 0.0180, loss: 0.1100 ||: 100%|##########| 120/120 [00:00<00:00, 364.02it/s]
+2023-08-06 20:01:56,533 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:56,533 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:56,567 - INFO - tqdm - accuracy: 0.9500, precision: 0.9524, recall: 0.9524, f1: 0.9524, batch_loss: 0.0293, loss: 0.1797 ||: 100%|##########| 30/30 [00:00<00:00, 894.59it/s]
+2023-08-06 20:01:56,567 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:56,567 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.958  |     0.950
+2023-08-06 20:01:56,567 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.958  |     0.952
+2023-08-06 20:01:56,568 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.110  |     0.180
+2023-08-06 20:01:56,568 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.952  |     0.952
+2023-08-06 20:01:56,568 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.964  |     0.952
+2023-08-06 20:01:56,568 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:56,572 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.369262
+2023-08-06 20:01:56,572 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:03
+2023-08-06 20:01:56,572 - INFO - allennlp.training.gradient_descent_trainer - Epoch 11/19
+2023-08-06 20:01:56,572 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:56,572 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:56,572 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:57,065 - INFO - tqdm - accuracy: 0.9698, precision: 0.9569, recall: 0.9831, f1: 0.9698, batch_loss: 0.0205, loss: 0.0964 ||: 100%|##########| 120/120 [00:00<00:00, 243.47it/s]
+2023-08-06 20:01:57,066 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:57,066 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:57,099 - INFO - tqdm - accuracy: 0.9333, precision: 0.9661, recall: 0.9048, f1: 0.9344, batch_loss: 0.0375, loss: 0.1547 ||: 100%|##########| 30/30 [00:00<00:00, 926.19it/s]
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.970  |     0.933
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.970  |     0.934
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.096  |     0.155
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.957  |     0.966
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.983  |     0.905
+2023-08-06 20:01:57,099 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:57,104 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.531717
+2023-08-06 20:01:57,104 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:03
+2023-08-06 20:01:57,104 - INFO - allennlp.training.gradient_descent_trainer - Epoch 12/19
+2023-08-06 20:01:57,104 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:57,104 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:57,104 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:57,451 - INFO - tqdm - accuracy: 0.9698, precision: 0.9607, recall: 0.9789, f1: 0.9697, batch_loss: 0.0356, loss: 0.1006 ||: 100%|##########| 120/120 [00:00<00:00, 346.61it/s]
+2023-08-06 20:01:57,451 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:57,451 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:57,486 - INFO - tqdm - accuracy: 0.9542, precision: 0.9528, recall: 0.9603, f1: 0.9565, batch_loss: 0.0408, loss: 0.1508 ||: 100%|##########| 30/30 [00:00<00:00, 875.44it/s]
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.970  |     0.954
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.970  |     0.957
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.101  |     0.151
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.961  |     0.953
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.979  |     0.960
+2023-08-06 20:01:57,487 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   487.891  |       N/A
+2023-08-06 20:01:57,492 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.387681
+2023-08-06 20:01:57,492 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:02
+2023-08-06 20:01:57,492 - INFO - allennlp.training.gradient_descent_trainer - Epoch 13/19
+2023-08-06 20:01:57,492 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:57,492 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:57,492 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:57,843 - INFO - tqdm - accuracy: 0.9635, precision: 0.9507, recall: 0.9768, f1: 0.9636, batch_loss: 0.0207, loss: 0.0953 ||: 100%|##########| 120/120 [00:00<00:00, 342.84it/s]
+2023-08-06 20:01:57,843 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:57,843 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:57,877 - INFO - tqdm - accuracy: 0.9417, precision: 0.9516, recall: 0.9365, f1: 0.9440, batch_loss: 0.2371, loss: 0.2074 ||: 100%|##########| 30/30 [00:00<00:00, 894.20it/s]
+2023-08-06 20:01:57,877 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:57,877 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.964  |     0.942
+2023-08-06 20:01:57,877 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.964  |     0.944
+2023-08-06 20:01:57,877 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.095  |     0.207
+2023-08-06 20:01:57,878 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.951  |     0.952
+2023-08-06 20:01:57,878 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.977  |     0.937
+2023-08-06 20:01:57,878 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:57,882 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.389872
+2023-08-06 20:01:57,882 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:02
+2023-08-06 20:01:57,882 - INFO - allennlp.training.gradient_descent_trainer - Epoch 14/19
+2023-08-06 20:01:57,882 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:57,882 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:57,882 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:58,207 - INFO - tqdm - accuracy: 0.9646, precision: 0.9622, recall: 0.9662, f1: 0.9642, batch_loss: 0.0030, loss: 0.0913 ||: 100%|##########| 120/120 [00:00<00:00, 370.29it/s]
+2023-08-06 20:01:58,207 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:58,208 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:58,243 - INFO - tqdm - accuracy: 0.9583, precision: 0.9531, recall: 0.9683, f1: 0.9606, batch_loss: 0.3235, loss: 0.1308 ||: 100%|##########| 30/30 [00:00<00:00, 850.15it/s]
+2023-08-06 20:01:58,243 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.965  |     0.958
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.964  |     0.961
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.091  |     0.131
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.962  |     0.953
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.966  |     0.968
+2023-08-06 20:01:58,244 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:58,248 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.366292
+2023-08-06 20:01:58,248 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:02
+2023-08-06 20:01:58,249 - INFO - allennlp.training.gradient_descent_trainer - Epoch 15/19
+2023-08-06 20:01:58,249 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:58,249 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:58,249 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:58,607 - INFO - tqdm - accuracy: 0.9656, precision: 0.9546, recall: 0.9768, f1: 0.9656, batch_loss: 0.0324, loss: 0.0956 ||: 100%|##########| 120/120 [00:00<00:00, 335.48it/s]
+2023-08-06 20:01:58,607 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:58,608 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:58,640 - INFO - tqdm - accuracy: 0.9583, precision: 0.9531, recall: 0.9683, f1: 0.9606, batch_loss: 0.0787, loss: 0.1577 ||: 100%|##########| 30/30 [00:00<00:00, 922.92it/s]
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.966  |     0.958
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.966  |     0.961
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.096  |     0.158
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.955  |     0.953
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.977  |     0.968
+2023-08-06 20:01:58,641 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:58,645 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.396934
+2023-08-06 20:01:58,646 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:01
+2023-08-06 20:01:58,646 - INFO - allennlp.training.gradient_descent_trainer - Epoch 16/19
+2023-08-06 20:01:58,646 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:58,646 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:58,646 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:59,063 - INFO - tqdm - accuracy: 0.9677, precision: 0.9493, recall: 0.9873, f1: 0.9679, batch_loss: 0.1142, loss: 0.0902 ||: 100%|##########| 120/120 [00:00<00:00, 288.29it/s]
+2023-08-06 20:01:59,063 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:59,063 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:59,101 - INFO - tqdm - accuracy: 0.9542, precision: 0.9600, recall: 0.9524, f1: 0.9562, batch_loss: 0.0143, loss: 0.1470 ||: 100%|##########| 30/30 [00:00<00:00, 807.66it/s]
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.968  |     0.954
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.968  |     0.956
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.090  |     0.147
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.949  |     0.960
+2023-08-06 20:01:59,101 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.987  |     0.952
+2023-08-06 20:01:59,102 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:59,105 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.459723
+2023-08-06 20:01:59,106 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:01
+2023-08-06 20:01:59,106 - INFO - allennlp.training.gradient_descent_trainer - Epoch 17/19
+2023-08-06 20:01:59,106 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:59,106 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:59,106 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:59,431 - INFO - tqdm - accuracy: 0.9688, precision: 0.9512, recall: 0.9873, f1: 0.9689, batch_loss: 0.0007, loss: 0.0844 ||: 100%|##########| 120/120 [00:00<00:00, 369.58it/s]
+2023-08-06 20:01:59,431 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:59,432 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:59,475 - INFO - tqdm - accuracy: 0.9542, precision: 0.9600, recall: 0.9524, f1: 0.9562, batch_loss: 0.0249, loss: 0.1636 ||: 100%|##########| 30/30 [00:00<00:00, 687.58it/s]
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.969  |     0.954
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.969  |     0.956
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.084  |     0.164
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.951  |     0.960
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.987  |     0.952
+2023-08-06 20:01:59,476 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:59,480 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.374515
+2023-08-06 20:01:59,480 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:00
+2023-08-06 20:01:59,484 - INFO - allennlp.training.gradient_descent_trainer - Epoch 18/19
+2023-08-06 20:01:59,484 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:59,484 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:59,484 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:01:59,806 - INFO - tqdm - accuracy: 0.9667, precision: 0.9585, recall: 0.9747, f1: 0.9665, batch_loss: 0.0270, loss: 0.0904 ||: 100%|##########| 120/120 [00:00<00:00, 372.81it/s]
+2023-08-06 20:01:59,806 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:01:59,807 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:01:59,839 - INFO - tqdm - accuracy: 0.9458, precision: 0.9520, recall: 0.9444, f1: 0.9482, batch_loss: 0.0616, loss: 0.1643 ||: 100%|##########| 30/30 [00:00<00:00, 917.38it/s]
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.967  |     0.946
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.967  |     0.948
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.090  |     0.164
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.959  |     0.952
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.975  |     0.944
+2023-08-06 20:01:59,840 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:01:59,844 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.360784
+2023-08-06 20:01:59,844 - INFO - allennlp.training.gradient_descent_trainer - Estimated training time remaining: 0:00:00
+2023-08-06 20:01:59,845 - INFO - allennlp.training.gradient_descent_trainer - Epoch 19/19
+2023-08-06 20:01:59,845 - INFO - allennlp.training.gradient_descent_trainer - Worker 0 memory usage: 488M
+2023-08-06 20:01:59,845 - INFO - allennlp.training.gradient_descent_trainer - Training
+2023-08-06 20:01:59,845 - INFO - tqdm - 0%|          | 0/120 [00:00<?, ?it/s]
+2023-08-06 20:02:00,172 - INFO - tqdm - accuracy: 0.9677, precision: 0.9605, recall: 0.9747, f1: 0.9675, batch_loss: 0.0231, loss: 0.0971 ||: 100%|##########| 120/120 [00:00<00:00, 367.68it/s]
+2023-08-06 20:02:00,172 - INFO - allennlp.training.gradient_descent_trainer - Validating
+2023-08-06 20:02:00,172 - INFO - tqdm - 0%|          | 0/30 [00:00<?, ?it/s]
+2023-08-06 20:02:00,203 - INFO - tqdm - accuracy: 0.9458, precision: 0.9520, recall: 0.9444, f1: 0.9482, batch_loss: 0.1822, loss: 0.1612 ||: 100%|##########| 30/30 [00:00<00:00, 964.86it/s]
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger -                        Training |  Validation
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - accuracy           |     0.968  |     0.946
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - f1                 |     0.968  |     0.948
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - loss               |     0.097  |     0.161
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - precision          |     0.960  |     0.952
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - recall             |     0.975  |     0.944
+2023-08-06 20:02:00,204 - INFO - allennlp.training.callbacks.console_logger - worker_0_memory_MB |   488.148  |       N/A
+2023-08-06 20:02:00,208 - INFO - allennlp.training.gradient_descent_trainer - Epoch duration: 0:00:00.363578
+2023-08-06 20:02:00,209 - INFO - allennlp.common.util - Metrics: {
+  "best_epoch": 14,
+  "peak_worker_0_memory_MB": 488.1484375,
+  "training_duration": "0:00:08.201217",
+  "epoch": 19,
+  "training_accuracy": 0.9677083333333333,
+  "training_precision": 0.9604989886283875,
+  "training_recall": 0.9746835231781006,
+  "training_f1": 0.9675392508506775,
+  "training_loss": 0.09706682806524138,
+  "training_worker_0_memory_MB": 488.1484375,
+  "validation_accuracy": 0.9458333333333333,
+  "validation_precision": 0.9520000219345093,
+  "validation_recall": 0.9444444179534912,
+  "validation_f1": 0.9482071399688721,
+  "validation_loss": 0.16122147949257246,
+  "best_validation_accuracy": 0.9583333333333334,
+  "best_validation_precision": 0.953125,
+  "best_validation_recall": 0.9682539701461792,
+  "best_validation_f1": 0.960629940032959,
+  "best_validation_loss": 0.13076319078293938
+}
+2023-08-06 20:02:00,210 - INFO - allennlp.models.archival - archiving weights and vocabulary to model/model.tar.gz
