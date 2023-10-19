@@ -15,7 +15,7 @@ This repository contains the code and data related to the Arbitrage bot scam. We
 
     @inproceedings{li2024towards,  
     title={Towards Understanding and Characterizing the Arbitrage Bot Scam In the Wild},  
-    author={Kai Li, Shixuan Guan, Darren Lee},  
+    author={Li, Kai and Guan, Shixuan and Lee, Darren},  
     booktitle={ACM SIGMETRICS},  
     year={2024}  
     }  
